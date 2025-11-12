@@ -1,27 +1,25 @@
 # LineFollower
 
-lege repository die je als template kan gebruiken om een eigen repository te starten voor uw linefollower project
-
-![A description of my image](images/empty.png)
+![A description of my image](images/Foto1.jpg)
 
   
 ## specifications
 
-microcontroller:
+microcontroller: ESP32 
 
-motors: 
+motors: Aslong JGA12-N20-10
 
-h-bridge:
+h-bridge: TB6612FNG 
 
-sensors:
+sensors: 8x IR Lijn Tracking Module
 
-batteries:
+batteries: LIHV 2s 300mAh
 
-wireless communication:
+wireless communication: Bleutooth
 
-distance sensor - motors:
+distance sensor - motors: 90mm
 
-weight:
+weight: 150 Gr
 
-speed: 
+speed: 0.27 m/s
 
