@@ -14,7 +14,7 @@ De robot gebruikt een LiPo HV 2S batterij met een volledige spanning van 8.7 V. 
 
     Zorg dat de batterij fysiek is losgekoppeld van de robot tijdens het opladen.
 
-    De robot en de USB poort van uw computen kan niet tegelijk de USB en de batterij aan doe dit nooit!
+    De robot en de USB poort van uw computer kan niet tegelijk de USB en de batterij aan doe dit nooit!
 Robot Aan/Uit Schakelen
 
 De robot is niet voorzien van een fysieke aan/uit-schakelaar.
