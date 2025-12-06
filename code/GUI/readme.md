@@ -10,7 +10,7 @@ Volg deze stappen om het project lokaal op uw computer in te stellen en uit te v
 Open uw commandoregel en download de code van GitHub:
 
 ```bash
-git clone https://github.com/KbeDemy/Linefollower/
+git clone https://github.com/KbeDemy/Linefollower
 cd code/GUI
 ```
 ### 2. Virtuele Omgeving Instellen (niet verplicht maar aanbevolen)
