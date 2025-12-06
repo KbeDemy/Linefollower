@@ -62,9 +62,7 @@ De cruciale lus wordt uitgevoerd op basis van een variabele intervaltimer (`calc
 
 #### E. Motor Aansturing
 
-* De functie `motors.set_speed(motoren[0].speed, motoren[1].speed)` stuurt de uiteindelijke snelheden van de twee motoren aan (dit is het **Single Point of Control** voor de motoren).
-
----
+* De functie `motors.set_speed(motoren[0].speed, motoren[1].speed)` stuurt de uiteindelijke snelheden van de twee motoren aan 
 
 ## Configuratie Permanentie
 
