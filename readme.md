@@ -5,9 +5,9 @@
   
 ## specifications
 
-microcontroller: ESP32 
+microcontroller: ESP32-S3
 
-motors: Aslong JGA12-N20-10
+motors: Aslong JGA12-N20-30 DC-Transmissiemotor 6V - 500RPM 
 
 h-bridge: TB6612FNG 
 
