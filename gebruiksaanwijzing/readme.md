@@ -25,7 +25,7 @@ De robot is niet voorzien van een fysieke aan/uit-schakelaar.
 
 Draadloze Communicatie & GUI Bediening
 
-De robot communiceert via Bluetooth met de mobiele applicatie, waardoor er geen handmatige commando's nodig zijn.
+De robot communiceert via Bluetooth met de GUI, waardoor er geen handmatige commando's nodig zijn.
 Verbinding Maken / Verbreken
 Actie	Procedure
 Verbinden	
