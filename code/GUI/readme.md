@@ -1,4 +1,4 @@
-# 🛠️ Linefollower - GUI Applicatie
+# Linefollower - GUI Applicatie
 
 Dit project is een Python-applicatie met een GUI gebouwd met PyQt6 en is gericht op het besturen/parametreren van de linefollower en dataanalyse van gereden runs
 ## Installatie
@@ -10,13 +10,12 @@ Volg deze stappen om het project lokaal op uw computer in te stellen en uit te v
 Open uw commandoregel (Terminal of PowerShell) en download de code van GitHub:
 
 ```bash
-git clone [https://github.com/bvanderveen](https://github.com/bvanderveen)
-cd [NAAM VAN UW PROJECTMAP]
+git clone https://github.com/KbeDemy/Linefollower/
+cd code/GUI
 ```
-2. Virtuele Omgeving Instellen (Aanbevolen)
+### 2. Virtuele Omgeving Instellen (Aanbevolen)
 
-Het gebruik van een virtuele omgeving (venv) is essentieel om te zorgen dat de benodigde software (dependencies) uw systeem niet vervuilt en om conflicten te vermijden.
-
+# Maak een virtuele omgeving om ervoor te zorgen dat u systeem niet vervuilt en om conflicten te vermijden 
 Creëer de omgeving:
   ```bash
   python -m venv venv
@@ -26,25 +25,25 @@ Activeer de omgeving:
   ```bash
   .\venv\Scripts\Activate
   ```
-3. Dependencies Installeren
+### 3. Dependencies Installeren
 
-Installeer alle benodigde pakketten die in het requirements.txt bestand zijn gespecificeerd:
+# Installeer alle benodigde pakketten die in het requirements.txt bestand zijn gespecificeerd:
 Bash
 
+ ```bash
 pip install -r req.txt
-
+ ```
 Dit installeert alle vereisten, inclusief de GUI-bibliotheek (PyQt6), plotting tools (matplotlib), en seriële communicatie (pyserial).
-De Applicatie Uitvoeren
+# De Applicatie Uitvoeren
 
 Zodra de virtuele omgeving actief is en de installatie is voltooid, start u de applicatie met dit commando:
-Bash
+
  ```bash
 python main.py
  ```
-
 De grafische gebruikersinterface zou nu moeten verschijnen.
 
-Belangrijke Map- en Bestandsstructuur
+### NOTE : Belangrijke Map- en Bestandsstructuur
 
 De applicatie is ontworpen om bepaalde bestanden en mappen automatisch aan te maken in de map waar u python main.py uitvoert.
 1. CSV-bestanden
