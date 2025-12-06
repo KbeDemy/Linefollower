@@ -44,7 +44,7 @@ De grafische gebruikersinterface zou nu moeten verschijnen.
 ### NOTE : Belangrijke Map- en Bestandsstructuur
   De applicatie is ontworpen om bepaalde bestanden en mappen automatisch aan te maken in de map waar u python main.py uitvoert.
   # 1. CSV-bestanden
-      Actie: Wanneer u in de GUI op de knop "Maak CSV".
+      Wanneer: Als u in de GUI op de knop "Maak CSV" drukt.
      
       Locatie: Er wordt een nieuwe submap gemaakt genaamd csv_files (als deze nog niet bestaat).
      
