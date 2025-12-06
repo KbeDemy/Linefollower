@@ -59,9 +59,9 @@ Deze tab is bedoeld voor het configureren van de robotparameters.
       Start: Start de automatische lijnvolgroutine (PID-controle).
       Stop: Stopt de robot onmiddellijk en schakelt de PID-lus uit.
       Parameters: 
-      U kunt de Basis Snelheid (0-255), 
+      de Basis Snelheid (0-255), 
       
-      de PID-parameters (Kp, Ki, Kd) instellen, 
+      de PID-parameters (Kp, Ki, Kd) 
       
       het minimaal contrast tussen zwart en wit wanneer de robot uitvalt en
       
