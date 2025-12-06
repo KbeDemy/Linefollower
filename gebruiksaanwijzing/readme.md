@@ -37,7 +37,7 @@ Verbreken
 De verbinding wordt verbroken door: 
 1. In de app op Verbreken te drukken.
 2. De applicatie te sluiten.
-3. 3. De batterij fysiek uit de robot te halen.
+3. De batterij fysiek uit de robot te halen.
 
 De Vier Applicatie Tabs
 1. Connectie Tab 
@@ -60,8 +60,11 @@ Deze tab is bedoeld voor het configureren van de robotparameters.
       Stop: Stopt de robot onmiddellijk en schakelt de PID-lus uit.
       Parameters: 
       U kunt de Basis Snelheid (0-255), 
+      
       de PID-parameters (Kp, Ki, Kd) instellen, 
+      
       het minimaal contrast tussen zwart en wit wanneer de robot uitvalt en
+      
       de loogdaarlaatfilter op de position.
       
       Testmodus (ZQSD): Dit biedt de mogelijkheid om de motoren manueel te testen en besturen met de ZQSD-toetsen (of vergelijkbare controls).
