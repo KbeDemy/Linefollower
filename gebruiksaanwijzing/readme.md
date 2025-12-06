@@ -23,7 +23,7 @@ De robot is niet voorzien van een fysieke aan/uit-schakelaar.
 
     UIT: Koppel de batterij fysiek los van de robot.
 
-📱 Draadloze Communicatie & App Bediening
+Draadloze Communicatie & GUI Bediening
 
 De robot communiceert via Bluetooth met de mobiele applicatie, waardoor er geen handmatige commando's nodig zijn.
 Verbinding Maken / Verbreken
