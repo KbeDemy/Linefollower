@@ -1,6 +1,6 @@
 #  LineFollow_V2 - Firmware Architectuur en Logica
 
-Dit project is de C++ firmware voor een geavanceerde lijnvolgrobot, PID-regulatie en draadloze communicatie via Bluetooth. De code is gestructureerd voor een **ESP32** microcontroller.
+Dit project is de C++ firmware voor een lijnvolgrobot, PID-regulatie en draadloze communicatie via Bluetooth. De code is gestructureerd voor een **ESP32** microcontroller.
 
 ---
 
