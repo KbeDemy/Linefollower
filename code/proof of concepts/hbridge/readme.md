@@ -69,7 +69,7 @@ Motor A (Snelheid i): Variëert van −255 (Max. Achteruit) →0 (Stilstand) →
 5.2. De set_speed(int16_t motor_a, int16_t motor_b) Functie
 
 Deze functie vertaalt de invoersnelheid (bereik: [−255,255]) naar de fysieke sturing van de motor.
-## 5.2.B. 🧭 Richtingbepaling (H-Brug Logica)
+## 5.2.B. Richtingbepaling (H-Brug Logica)
 
 De draairichting van de motor wordt bepaald door de logische toestand van de twee IN-pinnen van de H-brug (AIN1/AIN2 of BIN1/BIN2). Dit verandert de polariteit over de motor.
 
