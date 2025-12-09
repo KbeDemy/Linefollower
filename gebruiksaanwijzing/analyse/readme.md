@@ -16,7 +16,7 @@ De primaire reden hiervoor is de **constructie van de robot**. De batterij, die 
 ## 2.  Sensor Data en de 'Position Quirk'
 
 ### De Vraag naar een Low-Pass Filter
-Bij het bekijken van de 'position'-gegevens op de grafische weergave ![Grafiek Position Data](gebruiksaanwijzing/analyse/Schermafbeelding%202025-11-29%20153837.png) ontstond aanvankelijk de gedachte dat een low-pass filter nodig was om de ruis van de sensoren te onderdrukken.
+Bij het bekijken van de 'position'-gegevens op de grafische weergave ![Grafiek Position Data](Schermafbeelding%202025-11-29%20153837.png) ontstond aanvankelijk de gedachte dat een low-pass filter nodig was om de ruis van de sensoren te onderdrukken.
 
 Echter, uit de daadwerkelijke testruns bleek dat de fluctuaties op de sensordata **niet significant van invloed** waren op het uiteindelijke stuurgedrag van de robot. Het is een **ongewoon artefact** in de meetgegevens ('a rare quirk') waarvan de exacte oorzaak moeilijk te duiden is. Dit betekende dat de implementatie van een low-pass filter voor dit specifieke doel **niet nodig** was.
 
