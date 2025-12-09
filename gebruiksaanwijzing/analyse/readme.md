@@ -13,14 +13,25 @@ De primaire reden hiervoor is de **constructie van de robot**. De batterij, die 
 
 ---
 
-## 2.  Sensor Data en de 'Position Quirk'
+## 2.  Sensor Data en de Vreemde 'Glitch'
 
-### De Vraag naar een Low-Pass Filter
-Bij het bekijken van de 'position'-gegevens op de grafische weergave ![Grafiek Position Data](Schermafbeelding%202025-11-29%20153837.png) ontstond aanvankelijk de gedachte dat een low-pass filter nodig was om de ruis van de sensoren te onderdrukken.
+### Het Filter dat de Robot Vertraagde
 
-Echter, uit de daadwerkelijke testruns bleek dat de fluctuaties op de sensordata **niet significant van invloed** waren op het uiteindelijke stuurgedrag van de robot. Het is een **ongewoon artefact** in de meetgegevens ('a rare quirk') waarvan de exacte oorzaak moeilijk te duiden is. Dit betekende dat de implementatie van een low-pass filter voor dit specifieke doel **niet nodig** was.
+Toen ik grafiek bekeek (de afbeelding):
+![Grafiek Position Data](Schermafbeelding%202025-11-29%20153837.png)
+... zagen we dat de positiegegevens een beetje schommelden ('ruis'). ik dacht dat een filter (low pass, hoog frequente signalen eruit halen)
 
----
+Het leek op de grafiek alsof het filter hielp:
+![Grafiek Filterd Data](Schermafbeelding%202025-11-29%20155315.png)
+
+### Waarom het Filter Fout was
+Tijdens het rijden bleek de filtering een slecht idee:
+
+1.  **Vertraging:** Het filteren kost tijd. De robot kreeg de positie-informatie te laat door.
+2.  **Gevolg:** De robot stuurde daardoor te laat en werd trager.
+3.  **De Vreemde Glitch:** Wat we leerden, is dat de oorspronkelijke schommelingen in de data de robot tijdens het rijden helemaal niet stoorden. Het was een vreemde fout in de meting zelf ('a rare quirk'), en het was beter om de data snel binnen te krijgen dan om het schoon te maken.
+
+
 
 ## 3.  Conclusie over Analyse en Telemetrie 
 
@@ -30,3 +41,5 @@ Achteraf gezien was de inspanning die is gestoken in het bouwen van het uitgebre
 Het systeem verstuurt alle analysedata in JSON-formaat, wat een aanzienlijke overhead met zich meebrengt voor de microcontroller. Hierdoor wordt de code zelf merkbaar vertraagd. De robot zou veel sneller kunnen opereren zonder deze telemetrie.
 
 Gelukkig kan deze vertraging gedeeltelijk worden beperkt: de telemetrie kan worden uitgeschakeld in de sensortab, met de radiobutten, waardoor de prestaties van de robot tijdens een run kunnen worden verbeterd.
+
+Er zijn zeker betere manieren om dit te doen (BIT of CSV)
