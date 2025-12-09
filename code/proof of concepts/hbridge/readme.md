@@ -1,6 +1,6 @@
 #  H-Brug Proof-of-Concept met de TB6612FNG Dual DC Motor Driver
 
-Dit project demonstreert het principe van de **H-Brug** voor de onafhankelijke en traploze regeling van twee DC-motoren (snelheid en draairichting) met behulp van de TB6612FNG dual motor driver en een ESP32-microcontroller.
+Deze proof of concept demonstreert het principe van de **H-Brug** voor de onafhankelijke en traploze regeling van twee DC-motoren (snelheid en draairichting) met behulp van de TB6612FNG dual motor driver en een ESP32-microcontroller.
 
 ---
 
