@@ -48,7 +48,7 @@ De TB6612FNG wordt als volgt aangesloten op de ESP32:
 
 ---
 
-## 5. 🔬 Code Analyse (Werking & H-Brug Logica)
+## 5. Code Analyse (Werking & H-Brug Logica)
 
 ### 5.1. De `loop()` functie: Onafhankelijke & Traploze Regeling
 
@@ -69,3 +69,12 @@ Motor A (Snelheid i): Variëert van −255 (Max. Achteruit) →0 (Stilstand) →
 5.2. De set_speed(int16_t motor_a, int16_t motor_b) Functie
 
 Deze functie vertaalt de invoersnelheid (bereik: [−255,255]) naar de fysieke sturing van de motor.
+## 5.2.B. 🧭 Richtingbepaling (H-Brug Logica)
+
+De draairichting van de motor wordt bepaald door de logische toestand van de twee IN-pinnen van de H-brug (AIN1/AIN2 of BIN1/BIN2). Dit verandert de polariteit over de motor.
+
+| Invoer Snelheid ($\text{motor}$) | IN1 ($\text{AIN1}$ of $\text{BIN1}$) | IN2 ($\text{AIN2}$ of $\text{BIN2}$) | Resultaat (Draairichting) |
+| :---: | :---: | :---: | :--- |
+| **Positief** $(>0)$ | $\text{Hoog} \text{ (Set)}$ | $\text{Laag} \text{ (Clear)}$ | **Voorwaarts** |
+| **Negatief** $(<0)$ | $\text{Laag} \text{ (Clear)}$ | $\text{Hoog} \text{ (Set)}$ | **Achterwaarts** |
+| **Nul** $(0)$ | $\text{Laag} \text{ (Clear)}$ | $\text{Laag} \text{ (Clear)}$ | **Stilstand** (Rem of Freewheel) |
