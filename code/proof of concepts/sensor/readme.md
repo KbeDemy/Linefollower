@@ -1,23 +1,23 @@
-# 📊 Sensoren Proof of Concept: Onafhankelijke ADC-Uitlezing (ESP32)
+# Sensoren Proof of Concept: Onafhankelijke ADC-Uitlezing (ESP32)
 
 Dit project toont de basisfunctionaliteit van een ESP32 om **8 analoge sensoren** onafhankelijk uit te lezen, waarbij het volledige 12-bit bereik van de Analoog-naar-Digitaal Converter (ADC) wordt benut.
 
 ---
 
-## 1. 🎯 Doelstelling
+## 1.  Doelstelling
 
 * Aantonen dat minimaal 6 (in dit geval 8) analoge ingangen onafhankelijk kunnen worden uitgelezen.
 * Benutten van het volledige ADC-bereik (0-4095).
 * Basisimplementatie zonder complexe verwerking (calibratie/normalisatie).
 
-## 2. ⚙️ Hardware Vereisten
+## 2.  Hardware Vereisten
 
 | Component | Beschrijving |
 | :--- | :--- |
 | **Microcontroller** | ESP32-compatibel bord |
 | **Analoge Sensoren** | Minimaal 8 sensoren die variabele spanning leveren (0V - 3.3V). |
 
-## 3. 📌 Pinconfiguratie
+## 3.  Pinconfiguratie
 
 De code leest de waarden van **8 verschillende GPIO-pinnen** die zijn geconfigureerd als Analoge Ingangen (ADC).
 
@@ -34,7 +34,7 @@ De code leest de waarden van **8 verschillende GPIO-pinnen** die zijn geconfigur
 
 ---
 
-## 4. 💻 Code Functionele Analyse
+## 4.  Code
 
 ### Functie: Getimede Uitlezing
 
@@ -56,7 +56,7 @@ De sprintf()-functie verzamelt de 8 onafhankelijke meetwaarden in één overzich
 
 S1: [Waarde] , S2: [Waarde] , S3: [Waarde] , ...
 
-## 5. ▶️ Ingebruikname
+## 5. Ingebruikname
 
     Sluit de 8 sensoren aan op de overeenkomstige GPIO-pinnen (32, 33, 27, 14, 39, 36, 34, 35).
 
