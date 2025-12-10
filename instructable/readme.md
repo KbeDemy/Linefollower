@@ -36,7 +36,7 @@ Dit is de basis van de bedrading.
 * Lijn de gaten uit.
 * Schroef het geheel aan elkaar met de 4 conische bouten en moeren.
     
-  ![stap4](stap4.jpg)
+  ![stap4](stap3.jpg)
   
 ### Stap 5: Plaatsen van de Hoofdcomponenten
 * Plaats de **extender female pinnen** op de reeds gesoldeerde female pinnen van het perforatieprintje.
@@ -47,9 +47,11 @@ Dit is de basis van de bedrading.
   
 ### Stap 6: Montage van de Line Follower Sensor
 * Plaats de **8-channel Line Follow sensor** in de voorziene opening aan de voorkant van het frame.
+* plaats de batterijhouder juist 
 * Schroef deze vast met de bijbehorende bouten en moeren.
+
     
-  ![stap4](stap6.jpg) ![stap4](stap5.jpg)
+  ![stap4](stap6.jpg) 
 ---
 
 ##  Deel 3: Finale Aansluitingen en Afwerking (Stap 7-8)
