@@ -37,7 +37,9 @@ Tijdens het rijden bleek de filtering een slecht idee:
 ## 3.  Conclusie over Analyse en Telemetrie 
 
 ### De Prijs van Debugging
-Achteraf gezien was de inspanning die is gestoken in het bouwen van het uitgebreide analysesysteem en de visualisatie waarschijnlijk niet de moeite waard in verhouding tot de prestatiewinst.
+Achteraf gezien was de inspanning die is gestoken in het bouwen van het analysesysteem en de visualisatie waarschijnlijk niet de moeite waard in verhouding tot de prestatiewinst.
+
+het was eerder in het begin voor de sensor te testen en juist te zien wat fout gaat op dat moment
 
 Het systeem verstuurt alle analysedata in JSON-formaat, wat een aanzienlijke overhead met zich meebrengt voor de microcontroller. Hierdoor wordt de code zelf merkbaar vertraagd. De robot zou veel sneller kunnen opereren zonder deze telemetrie.
 
