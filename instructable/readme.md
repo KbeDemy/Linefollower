@@ -97,7 +97,7 @@ Dit deel beschrijft de stappen om de software op de ESP-32 microcontroller te kr
 
 Lees deze waarschuwingen zorgvuldig door om schade aan de elektronica te voorkomen:
 
-* **Batterij en USB Nooit Samen:** **Steek NOOIT de batterij en de USB-kabel tegelijkertijd in.** Dit kan leiden tot een stroomconflict, overmatige hitte, en permanente schade aan de ESP-32 en/of de batterij (kans op "boem").
+* **Batterij en USB Nooit Samen:** **Steek NOOIT de batterij en de USB-kabel tegelijkertijd in.** Dit kan leiden tot een stroomconflict, overmatige hitte, en permanente schade aan de ESP-32 en/of de batterij.
 * **Motoren Testen via USB:** **Test of voed de motoren NOOIT via de USB-kabel van de ESP-32.** De ESP-32 heeft een interne 3.3V-regulator die niet ontworpen is om de hoge piekstroom te leveren die motoren vereisen. Dit kan leiden tot overbelasting, instabiliteit van de microcontroller, of falen van de regulator. Voed de motoren altijd via de externe batterij en de Motor Driver (gebruik de USB alleen voor programmeren).
 
 ### Stap 13: Installatie van de Gebruikersinterface (GUI/APP)
