@@ -119,7 +119,11 @@ Aanbevolen Parameters
 
 De robot rijdt stabiel met de volgende parameters:
 Parameter	Waarde	Opmerking
+
 Kp	7	Proportionele versterking.
+
 Ki	0	Integrale versterking (voor lange-termijn fouten).
+
 Kd	0	Differentiële versterking (voor het dempen van schommelingen).
+
 Speed	140 	De basissnelheid van de robot.
