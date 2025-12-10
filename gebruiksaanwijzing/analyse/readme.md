@@ -43,4 +43,5 @@ Het systeem verstuurt alle analysedata in JSON-formaat, wat een aanzienlijke ove
 
 Gelukkig kan deze vertraging gedeeltelijk worden beperkt: de telemetrie kan worden uitgeschakeld in de sensortab, met de radiobutten, waardoor de prestaties van de robot tijdens een run kunnen worden verbeterd.
 
-Er zijn zeker betere manieren om dit te doen (BIT of CSV)
+Er zijn zeker betere manieren om dit te doen 
+
