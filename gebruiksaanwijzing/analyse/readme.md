@@ -28,7 +28,7 @@ Het leek op de grafiek alsof het filter hielp:
 ### Waarom het Filter Fout was
 Tijdens het rijden bleek de filtering een slecht idee:
 
-1.  **Vertraging:** Het filteren kost tijd. De robot kreeg de positie-informatie te laat door.
+1.  **Vertraging:** Het filteren kost tijd. omdat de hoogfrequente signalen eruit werden gefilterd, betekent dit ook dat de scherpe bochten wat ook een hoogfrequent signaal is er uit wordt gefilter daardoor kreeg de robot de positie-informatie te laat door.
 2.  **Gevolg:** De robot stuurde daardoor te laat en werd trager.
 3.  **De Vreemde Glitch:** Wat we leerden, is dat de oorspronkelijke schommelingen in de data de robot tijdens het rijden helemaal niet stoorden. Het was een vreemde fout in de meting zelf ('a rare quirk'), en het was beter om de data snel binnen te krijgen dan om het schoon te maken.
 
