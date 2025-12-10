@@ -1,4 +1,4 @@
-# 🛒 Project Onderdelenlijst (Geactualiseerd)
+#  Project Onderdelenlijst 
 
 Dit is de geactualiseerde lijst van componenten, inclusief de ingevulde subtotaal en somwaarden.
 
