@@ -124,5 +124,5 @@ Kp	7
 Ki	0	
 
 Kd	0	
-Speed	140 	
-De basissnelheid van de robot.
+
+Speed	140 	De basissnelheid van de robot.
