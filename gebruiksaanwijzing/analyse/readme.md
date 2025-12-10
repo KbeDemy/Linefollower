@@ -39,11 +39,11 @@ Tijdens het rijden bleek de filtering een slecht idee:
 ### De Prijs van Debugging
 Achteraf gezien was de inspanning die is gestoken in het bouwen van het analysesysteem en de visualisatie waarschijnlijk niet de moeite waard in verhouding tot de prestatiewinst.
 
-het was eerder in het begin voor de sensor te testen en juist te zien wat fout gaat op dat moment
-
 Het systeem verstuurt alle analysedata in JSON-formaat, wat een aanzienlijke overhead met zich meebrengt voor de microcontroller. Hierdoor wordt de code zelf merkbaar vertraagd. De robot zou veel sneller kunnen opereren zonder deze telemetrie.
 
 Gelukkig kan deze vertraging gedeeltelijk worden beperkt: de telemetrie kan worden uitgeschakeld in de sensortab, met de radiobutten, waardoor de prestaties van de robot tijdens een run kunnen worden verbeterd.
+
+Ook was de telemtrie tool handig bij het debuggen van "gemakelijk fouten", je ziet de sensor waarden wat het wel gemakelijk maakt om de fouten op te sporen.
 
 Er zijn zeker betere manieren om dit te doen 
 
