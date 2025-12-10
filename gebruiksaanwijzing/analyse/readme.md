@@ -22,6 +22,7 @@ Toen ik grafiek bekeek (de afbeelding):
 ... zagen we dat de positiegegevens een beetje schommelden ('ruis'). ik dacht dat een filter (low pass, hoog frequente signalen eruit halen)
 
 Het leek op de grafiek alsof het filter hielp:
+
 ![Grafiek Filterd Data](Schermafbeelding%202025-11-29%20155315.png)
 
 ### Waarom het Filter Fout was
