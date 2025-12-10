@@ -1,6 +1,5 @@
-#  Project Onderdelenlijst 
+#  BOM
 
-Dit is de geactualiseerde lijst van componenten, inclusief de ingevulde subtotaal en somwaarden.
 
 | naam | omschrijving | nieuwe/recap | kostprijs/stuk | eenheid | aantal | subtotaal |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
