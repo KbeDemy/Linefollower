@@ -40,20 +40,21 @@ Dit is de basis van de bedrading.
     
   ![stap4](stap3.jpg)
   
-### Stap 5: Plaatsen van de Hoofdcomponenten
-* Plaats de **extender female pinnen** op de reeds gesoldeerde female pinnen van het perforatieprintje.
-* Plaats de **ESP-32** op de extender pinnen. Zorg dat de ESP correct is georiënteerd.
-* Plaats de **Motor Driver** (rood) en de **Buck Converter** (blauw) op de daarvoor bestemde plekken op de printplaat.
-    
-   ![stap4](stap7.jpg)
-  
-### Stap 6: Montage van de Line Follower Sensor
+### Stap 5: Montage van de Line Follower Sensor
 * Plaats de **8-channel Line Follow sensor** in de voorziene opening aan de voorkant van het frame.
 * plaats de batterijhouder juist 
 * Schroef deze vast met de bijbehorende bouten en moeren.
 
     
   ![stap4](stap6.jpg) 
+### Stap 6: Plaatsen van de Hoofdcomponenten
+* Plaats de **extender female pinnen** op de reeds gesoldeerde female pinnen van het perforatieprintje.
+* Plaats de **ESP-32** op de extender pinnen. Zorg dat de ESP correct is georiënteerd.
+* Plaats de **Motor Driver** (rood) en de **Buck Converter** (blauw) op de daarvoor bestemde plekken op de printplaat.
+    
+   ![stap4](stap7.jpg)
+  
+
 ---
 
 ##  Deel 3: Finale Aansluitingen en Afwerking 
