@@ -2,6 +2,8 @@
 
 Dit document is een stappenplan (Instructable) dat beschrijft hoe de Line Follower Robot gebouwd moet worden, uitgaande van de *Bill of Materials* en de *Technische Tekeningen* (met name *SchemaPlanB*). De bijgevoegde afbeeldingen dienen als visuele referentie tijdens de montage.
 
+(niet alle stappen hebben een afbeelding, wanneer het niet duidelijk is kan je altijd eens kijken of er geen duidelijkere afbeelding in /instructable staan 
+
 ---
 
 ##  Deel 1: Voorbereiding en Componenten (Stap 1-3)
