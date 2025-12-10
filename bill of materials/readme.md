@@ -4,7 +4,7 @@
 | naam | omschrijving | nieuwe/recap | kostprijs/stuk | eenheid | aantal | subtotaal |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | elektrische draad | 0.05mm² | 1 | 0.00652 | €/cm | 15 | €0.10 |
-| DraaiLegoCross | 3D print.zie /mechanisch! 2 KEER! | 1 | 0.01536 | €/g | 0.6 | €0.01 |
+| DnaarLegoCross | 3D print.zie /mechanisch ! 2 KEER ! | 1 | 0.01536 | €/g | 0.6 | €0.01 |
 | 43.2 mm tire | LEGO | 0 | 0.39 | €/stuk | 2 | €0.78 |
 | 43.2 mm wheel | LEGO | 0 | 0.39 | €/stuk | 2 | €0.78 |
 | Aslong JGA12-N20-10 | 6V 1500RPM | 1 | 4.5 | €/stuk | 2 | €9.00 |
