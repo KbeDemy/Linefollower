@@ -9,7 +9,7 @@ Dit document is een stappenplan (Instructable) dat beschrijft hoe de Line Follow
 ### Stap 1: Componenten Bestellen en 3D-printen
 * Bestel alle elektronische componenten uit de *Bill of Materials*.
 * 3D-print de mechanische componenten die beschreven staan in de map `/technishe tekeningen/mechanish`.
-
+  ![componenten](stap2.jpg)
 ### Stap 2: Pinnen op Breakout Boards Solderen
 * Soldeer de *header pins* aan alle componenten (ESP-32, Motor Driver, Buck Converter, en de 8-channel Line Follow sensor).
     > **Opmerking:** Er is gekozen voor breakoutboards om het solderen te vereenvoudigen en componenten gemakkelijk te kunnen vervangen.
