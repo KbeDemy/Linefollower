@@ -22,7 +22,7 @@ Dit is de basis van de bedrading.
 
 1.  Soldeer de **vrouwelijke header pinnen** aan het perforatieprintje. Zorg voor voldoende ruimte tussen de pinnen en het 3D-geprinte frame (zie afbeeldingen).
 2.  **Voeding:** Soldeer de **male extender cord** (voor de batterijvoeding) aan de printplaat. Boor gaten in de printplaat zodat de uiteinden de + en - pads kunnen raken.
-3.  **Condensator:** Soldeer een **condensator van 1000 $\mu$F** in parallel over de batterijspanning. Deze zal spanningspieken opvangen.
+3.  **Condensator:** Soldeer een **condensator van 1000 µF** in parallel over de batterijspanning. Deze zal spanningspieken opvangen.
 4.  **Motoren:** Soldeer 2 kleine condensatoren over de motoren zelf (dit is optioneel, maar aanbevolen om spanningspieken te vermijden).
 5.  Soldeer draden aan de motoren om ze via het voorziene 'poortje' naar het printplaatje te leiden en aan te sluiten. 
 6.  **Interne Bedrading:** Maak de juiste verbindingen (korte draadbruggen) tussen de toekomstige componenten (**ESP-32**, **Motor Driver**, **Buck Converter**) op de onderkant van het perforatieprintje. Volg hiervoor nauwkeurig het schema in *technishe tekeningen / schemaPlanB*.
