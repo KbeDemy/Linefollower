@@ -27,7 +27,7 @@ Dit is de basis van de bedrading.
 5.  Soldeer draden aan de motoren om ze via het voorziene 'poortje' naar het printplaatje te leiden en aan te sluiten. 
 6.  **Interne Bedrading:** Maak de juiste verbindingen (korte draadbruggen) tussen de toekomstige componenten (**ESP-32**, **Motor Driver**, **Buck Converter**) op de onderkant van het perforatieprintje. Volg hiervoor nauwkeurig het schema in *technishe tekeningen / schemaPlanB*.
 
-   ![printplaat](20251210_224826.jpg)
+   ![printplaat](stap0_5.jpg)
 
 ---
 
