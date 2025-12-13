@@ -1,6 +1,9 @@
 # Linefollower - GUI Applicatie
 
 Dit project is een Python-applicatie met een GUI gebouwd met PyQt6 en is gericht op het besturen/parametreren van de linefollower en dataanalyse van gereden runs
+
+zie /schermafbeelding_ voor hoe de verschillende tabs er uit zien 
+
 ## Installatie
 
 Volg deze stappen om het project lokaal op uw computer in te stellen en uit te voeren.
