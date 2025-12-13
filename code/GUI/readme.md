@@ -57,3 +57,7 @@ De grafische gebruikersinterface zou nu moeten verschijnen.
       Actie: De database wordt automatisch gecreëerd bij de eerste keer opstarten of wanneer een database-actie vereist is.
       
       Locatie: Het databasebestand (robot_data.db) wordt direct in de hoofdmap van de applicatie aangemaakt (naast main.py).
+![abeelding_connect](Schermafbeelding_connect.png)
+![abeelding_connect](Schermafbeelding_grafiek.png)
+![abeelding_connect](Schermafbeelding_sensor.png)
+![abeelding_connect](Schermafbeelding_settings.png)
