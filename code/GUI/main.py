@@ -21,8 +21,8 @@ def main():
 
     hwnd = int(window.winId())
 
-    color = 0xFF000000  # FF = alpha, 00 00 00 = RGB zwart
-    DWMWA_CAPTION_COLOR = 35  # Windows 10 1809+ voor title bar kleur
+    color = 0xFF000000 
+    DWMWA_CAPTION_COLOR = 35  
     ctypes.windll.dwmapi.DwmSetWindowAttribute(
         hwnd, 
         DWMWA_CAPTION_COLOR, 
@@ -34,3 +34,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
